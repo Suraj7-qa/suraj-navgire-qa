@@ -1,57 +1,86 @@
 <div align="center">
 
-# Suraj Navgire
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:071952,50:088395,100:37B7C3&height=220&section=header&text=Suraj%20Navgire&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=QA%20Engineer%20%7C%20Manual%20Testing%20%7C%20Playwright%20Automation&descAlignY=60&descSize=17" alt="Suraj Navgire QA Engineer banner" width="100%"/>
 
-### QA Engineer | Manual Testing | Playwright Automation
+<a href="https://suraj7-qa.github.io/suraj-navgire-qa/">
+  <img src="https://img.shields.io/badge/🌐_VISIT_MY_PORTFOLIO-087E8B?style=for-the-badge" alt="Visit Portfolio"/>
+</a>
+<a href="https://linkedin.com/in/suraj-navgire">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="mailto:surajnavgire092@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+<a href="QA_Suraj_Navgire_.pdf">
+  <img src="https://img.shields.io/badge/Resume-Download-2E8B57?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download Resume"/>
+</a>
 
-**Finding defects. Improving quality. Building reliable software.**
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=088395&center=true&vCenter=true&width=700&lines=I+find+bugs+before+users+do.;Manual+Testing+%7C+API+Testing+%7C+SQL;Learning+and+building+with+Playwright+%2B+TypeScript;Quality+is+a+team+effort." alt="Typing introduction"/>
 
-Manual-first QA Engineer with 4 years of experience in e-commerce web and Android application testing. ISTQB certified, with experience in test case design, defect lifecycle management, API testing, database validation, and UI automation.
-
-📍 Pune, Maharashtra, India
-
-[LinkedIn](https://linkedin.com/in/suraj-navgire) ·
-[Email](mailto:surajnavgire092@gmail.com)
+![Location](https://img.shields.io/badge/Location-Pune%2C%20India-0B7285?style=flat-square)
+![Experience](https://img.shields.io/badge/QA_Experience-4_Years-126E82?style=flat-square)
+![Certification](https://img.shields.io/badge/ISTQB-CTFL-2E8B57?style=flat-square)
+![Focus](https://img.shields.io/badge/Focus-Software_Quality-6C63FF?style=flat-square)
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## 🧭 Quick Navigation
 
-I am a QA Engineer passionate about identifying defects, validating business requirements, and improving software quality through structured testing.
-
-My experience includes e-commerce platforms, web applications, Android applications, SaaS products, and EV charging management systems.
-
-I focus on understanding application behavior, identifying edge cases, documenting reproducible defects, and validating fixes before release.
-
-### What I Do
-
-- Design and execute functional and regression test cases.
-- Perform smoke, sanity, exploratory, and negative testing.
-- Identify and document defects with clear reproduction steps.
-- Validate REST APIs using Postman.
-- Verify backend data using SQL.
-- Test web applications across multiple browsers.
-- Validate Android application workflows.
-- Work with Playwright and TypeScript for UI automation.
-- Prepare test scenarios, test cases, bug reports, and execution reports.
-- Collaborate with developers and stakeholders in Agile environments.
+[About Me](#-about-me) · [Skills](#-toolbox) · [Projects](#-featured-qa-projects) · [Bug Reporting](#-how-i-report-bugs) · [Workflow](#-my-qa-workflow) · [Experience](#-professional-experience) · [Education](#-education--certification) · [Connect](#-lets-connect)
 
 ---
 
-## 🛠️ Technical Skills
+## 👋 About Me
 
-### Manual Testing
+I'm **Suraj Navgire**, a QA Engineer with **4 years of professional experience** in software testing, primarily across e-commerce web and Android applications. I enjoy investigating how products behave, uncovering edge cases, and turning unclear failures into actionable defect reports.
 
-![Functional Testing](https://img.shields.io/badge/Functional_Testing-0B7285?style=flat-square)
-![Regression Testing](https://img.shields.io/badge/Regression_Testing-0B7285?style=flat-square)
-![Smoke Testing](https://img.shields.io/badge/Smoke_Testing-0B7285?style=flat-square)
-![Sanity Testing](https://img.shields.io/badge/Sanity_Testing-0B7285?style=flat-square)
-![Exploratory Testing](https://img.shields.io/badge/Exploratory_Testing-0B7285?style=flat-square)
-![Retesting](https://img.shields.io/badge/Retesting-0B7285?style=flat-square)
+My experience spans web and mobile testing, SaaS products, API validation, SQL-based data checks, and testing an EV charging application with its web-based CMS. I am also building my UI automation practice with **Playwright and TypeScript**.
 
-### Automation Testing
+> 💡 **My QA mindset:** Don't just verify the happy path. Challenge assumptions, test boundaries, validate the data, and make defects easy to reproduce.
+
+### At a glance
+
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/2500%2B-Test_Cases-087E8B?style=for-the-badge" alt="2500 plus test cases"/><br/>
+<b>Test design</b><br/><sub>Portfolio-level figure</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/900%2B-Defects_Tracked-C0392B?style=for-the-badge" alt="900 plus defects tracked"/><br/>
+<b>Defect lifecycle</b><br/><sub>Portfolio-level figure</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Web_%2B_Android-Coverage-5B5BD6?style=for-the-badge" alt="Web and Android testing"/><br/>
+<b>Platforms</b><br/><sub>Web and mobile</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Playwright-Currently_Building-2E8B57?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright"/><br/>
+<b>Automation</b><br/><sub>TypeScript</sub>
+</td>
+</tr>
+</table>
+
+*Counts above are portfolio-level figures; individual project metrics below describe separate engagements and should not be added together.*
+
+---
+
+## 🧰 Toolbox
+
+### Testing
+
+![Manual Testing](https://img.shields.io/badge/Manual_Testing-087E8B?style=flat-square)
+![Functional](https://img.shields.io/badge/Functional_Testing-087E8B?style=flat-square)
+![Regression](https://img.shields.io/badge/Regression_Testing-087E8B?style=flat-square)
+![Smoke](https://img.shields.io/badge/Smoke_Testing-087E8B?style=flat-square)
+![Sanity](https://img.shields.io/badge/Sanity_Testing-087E8B?style=flat-square)
+![Exploratory](https://img.shields.io/badge/Exploratory_Testing-087E8B?style=flat-square)
+![Cross Browser](https://img.shields.io/badge/Cross_Browser-087E8B?style=flat-square)
+![Mobile](https://img.shields.io/badge/Android_Testing-087E8B?style=flat-square)
+
+### Automation, API & data
 
 ![Playwright](https://img.shields.io/badge/Playwright-2E8B57?style=flat-square&logo=playwright&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -59,336 +88,269 @@ I focus on understanding application behavior, identifying edge cases, documenti
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![TestNG](https://img.shields.io/badge/TestNG-DC382D?style=flat-square)
-
-### API & Database Testing
-
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-4051B5?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square)
 
-### Tools & Methodologies
+### Tools & practices
 
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Agile](https://img.shields.io/badge/Agile_Scrum-6C63FF?style=flat-square)
+![Agile Scrum](https://img.shields.io/badge/Agile%2FScrum-6C63FF?style=flat-square)
 
----
-
-## 📊 QA Portfolio at a Glance
-
-| Area | Details |
-|---|---|
-| Professional Experience | 4 years |
-| Test Cases | 2,500+ |
-| Defects Tracked | 900+ |
-| Primary Testing | Manual, Functional & Regression |
-| Automation | Playwright & TypeScript |
-| API Testing | Postman |
-| Database Testing | SQL |
-| Application Coverage | Web, Android, E-commerce, SaaS & EV Charging CMS |
-| Documentation | Test Cases, Bug Reports, RTM & Execution Reports |
-
-*Portfolio-level figures are based on the experience and statistics presented on my portfolio website. Individual project metrics are listed separately below.*
+**Testing coverage:** API validation · SQL data integrity · RBAC · Form validation · Negative testing · WebSocket behavior · E-commerce workflows · Defect triage · RTM · Test execution reporting
 
 ---
 
 ## 🚀 Featured QA Projects
 
-### 1. EV Charging Application & CMS
+<a href="https://github.com/Suraj7-qa/suraj-navgire-qa">
+  <img align="right" width="130" src="https://img.shields.io/badge/PROJECT-PORTFOLIO-087E8B?style=for-the-badge" alt="Portfolio project"/>
+</a>
 
-**Project Type:** Mobile Application & Web CMS  
-**Role:** QA Engineer — Manual Testing and Automation Work
+### ⚡ 1. EV Charging Application & CMS
 
-A QA engagement covering an EV charging application and its web-based content management system.
+**Scope:** Mobile application + web-based Content Management System
 
-**Testing Coverage**
+Tested core application workflows and CMS functionality, with emphasis on permissions, data consistency, integrations, and real-time connector behavior.
 
-- Functional testing across 12 modules.
-- Role-based access control and permission validation.
-- Form validation and negative testing.
-- Data consistency and administrative workflows.
-- WebSocket-based real-time connector behavior.
-- API integration and backend response validation.
-- Regression testing of critical workflows.
+- **777 functional test cases**
+- **104 documented defect reports**
+- **12 modules covered**
+- Role-based access and permission validation
+- Form validation, negative scenarios, and regression coverage
+- API integration and WebSocket-based real-time behavior
 
-**Deliverables**
-
-- 777 functional test cases.
-- 104 documented defect reports.
-- Test case and bug report documentation.
-- Manual testing and automation-related work.
-
-**Technologies:** Playwright, TypeScript, Postman, SQL, Git and GitHub.
+**Tools:** Playwright, TypeScript, Postman, SQL, Git and GitHub.
 
 ---
 
-### 2. Spiritual E-commerce Platform
+### 🛍️ 2. Spiritual E-commerce Platform
 
-**Project Type:** Web Application & Android Application  
-**Role:** QA Engineer
+**Scope:** Web + Android application
 
-A testing engagement for an e-commerce platform supporting product purchases, service bookings, and multiple user roles.
+Testing coverage included e-commerce journeys and spiritual-service workflows across multiple user roles.
 
-**Testing Coverage**
+- **1,697+ test cases**
+- **641+ documented defects**
+- Product browsing, orders, and booking workflows
+- Puja booking and astrologer consultation flows
+- API validation, backend data checks, and regression testing
+- Web and Android functional testing
 
-- User authentication and profile workflows.
-- Role-based functionality.
-- Product browsing and order management.
-- Puja booking and astrologer consultation workflows.
-- Form validation and negative scenarios.
-- API testing and backend data validation.
-- Web and Android application testing.
-- Regression and exploratory testing.
-
-**Deliverables**
-
-- 1,697+ test cases.
-- 641+ documented defects.
-- Functional and regression testing documentation.
-- Web and mobile application test coverage.
+**Tools:** Jira, Postman, SQL, browser and mobile testing tools.
 
 ---
 
-### 3. E-commerce Web & Android Testing
+### 🛒 3. E-commerce Web & Android Applications
 
-**Project Type:** Web Application & Android Application  
-**Role:** QA Engineer
+Professional testing work covering functional quality, release validation, cross-browser behavior, and defect lifecycle management.
 
-Professional QA work involving e-commerce applications, release validation, and defect management.
-
-**Responsibilities**
-
-- Created and executed functional test cases.
-- Performed smoke, sanity, and regression testing.
-- Validated application workflows across web and Android.
-- Conducted cross-browser testing using Chrome, Firefox, Safari, and Edge.
-- Tested REST APIs using Postman.
-- Used SQL to validate backend data.
-- Reported and tracked defects in Jira.
-- Prepared test scenarios, execution reports, and traceability documentation.
-
-**Contributions**
-
-- 400+ test cases across testing activities.
-- 200+ documented and tracked defects.
-- Functional, regression, and cross-browser testing.
+- Created and maintained **400+ test cases** across testing activities.
+- Documented and tracked **200+ defects**.
+- Tested web and Android workflows.
+- Performed cross-browser checks across Chrome, Firefox, Safari, and Edge.
+- Validated REST APIs using Postman and data using SQL.
+- Worked with developers in Agile/Scrum workflows.
 
 ---
 
-### 4. Web Application Validation & Defect Analysis
+### 🔎 4. Web Application Validation & Defect Analysis
 
-**Project Type:** Web Applications & SaaS Products
+Focused testing assignments covering business rules, form validation, usability, integrations, and edge cases.
 
-Testing assignments focused on form validation, business rules, UI behavior, and application usability.
-
-**Testing Activities**
-
-- Mandatory field validation.
-- Minimum and maximum input length checks.
-- Whitespace-only input validation.
-- Disabled buttons and blocked submissions.
-- Pagination and bulk action testing.
-- UI overlap and inaccessible control investigation.
-- Expected versus actual result documentation.
-
-**Selected Assignment Results**
-
-| Assignment | Test Cases | Results |
+| Assignment | Coverage | Recorded outcome |
 |---|---:|---|
-| PR Form Testing | 70 | 65 passed, 5 failed; 54 bugs documented |
-| Homestay Booking Application | 90 | Coverage across 5 user roles |
-| CRM–Accounting Connector | 18 | 11 passed, 7 failed |
-| AI Website & QMS Analysis | 18 | 11 passed, 7 failed |
+| PR Form Testing | 70 test cases | 65 passed, 5 failed; 54 bugs documented |
+| Homestay Booking Application | 90 test cases | 5 user roles covered |
+| CRM–Accounting Connector | 18 test cases | 11 passed, 7 failed |
+| AI Website & QMS Analysis | 18 test cases | 11 passed, 7 failed |
 | E-commerce Admin & Frontend | Defect-focused | 10 bugs: 1 critical, 7 high |
 
-*These figures represent separate assignments and should not be combined into a single execution total.*
+*These are separate assignments, not one combined execution report.*
 
 ---
 
-## 🐞 My Bug Reporting Approach
+## 🐞 How I Report Bugs
 
-A good bug report should help developers understand the issue, reproduce it consistently, and identify the expected behavior.
+A useful bug report makes an issue easy to reproduce and gives the team enough information to investigate it.
 
-My defect reports focus on:
+<details>
+<summary><b>🔴 Example: Missing validation for whitespace-only input</b></summary>
 
-- Clear bug titles.
-- Affected modules and functionality.
-- Severity and priority.
-- Preconditions and test data.
-- Step-by-step reproduction instructions.
-- Expected and actual results.
-- Screenshots or supporting evidence.
-- Retesting after fixes.
+**Title:** Mandatory title field accepts whitespace without a clear validation message.
 
-### Example Bug Report
+**Precondition:** The user can access the form.
 
-**Title:** Validation message is missing when a mandatory field contains only spaces.
-
-**Steps to Reproduce**
-
-1. Open the relevant form.
+**Steps to reproduce**
+1. Open the form.
 2. Enter only spaces in the mandatory title field.
-3. Complete any other required fields.
-4. Attempt to submit the form.
+3. Fill any other required fields.
+4. Submit the form.
 
-**Expected Result:** The application should reject whitespace-only input and display a clear validation message.
+**Expected result:** Whitespace-only input is rejected and a clear validation message is displayed.
 
-**Actual Result:** The application does not provide appropriate feedback for the invalid input.
+**Actual result:** The application does not provide appropriate feedback for the invalid input.
 
-**Testing Focus:** Input validation, negative testing, and usability.
+**Testing focus:** Negative testing, input validation, and usability.
+
+</details>
+
+<details>
+<summary><b>📋 What my defect reports include</b></summary>
+
+- Bug ID and concise title
+- Affected module
+- Severity and priority
+- Preconditions and test data
+- Steps to reproduce
+- Expected result
+- Actual result
+- Screenshots or supporting evidence
+- Retesting status
+
+</details>
 
 ---
 
-## 🧪 Testing Workflow
+## 🔄 My QA Workflow
 
-```text
-Requirements Analysis
-        ↓
-Test Scenario Identification
-        ↓
-Test Case Design
-        ↓
-Test Data Preparation
-        ↓
-Test Execution
-        ↓
-Defect Reporting
-        ↓
-Retesting & Regression
-        ↓
-Test Summary & Documentation
+```mermaid
+flowchart TD
+    A[Requirements Analysis] --> B[Test Scenarios]
+    B --> C[Test Case Design]
+    C --> D[Test Data Preparation]
+    D --> E[Test Execution]
+    E --> F{Result}
+    F -->|Failed| G[Log Reproducible Defect]
+    G --> H[Developer Fix]
+    H --> I[Retesting]
+    I --> J[Regression Testing]
+    F -->|Passed| J
+    J --> K[Test Summary and Reporting]
+    style A fill:#087E8B,color:#fff,stroke:#087E8B
+    style F fill:#6C63FF,color:#fff,stroke:#6C63FF
+    style G fill:#C0392B,color:#fff,stroke:#C0392B
+    style K fill:#2E8B57,color:#fff,stroke:#2E8B57
 ```
 
-For automation work, I focus on stable, repeatable regression scenarios and maintainable test structure using Playwright and TypeScript.
+### 🤖 Automation approach
+
+I use Playwright and TypeScript for automation-related work, focusing on repeatable, high-value scenarios and maintainable tests.
+
+- Browser automation and stable locators
+- Authentication and form validation
+- Positive and negative scenarios
+- Reusable page objects where appropriate
+- Regression execution and failure investigation
+- Git-based version control
+
+Manual exploratory testing remains important for uncovering unexpected behavior that scripted tests may not anticipate.
 
 ---
 
-## 🤖 Automation Testing
+## 📂 Portfolio Documents
 
-My automation focus is on developing maintainable UI tests that complement manual testing.
+The repository contains supporting QA documents. Open the files directly from the repository:
 
-**Current areas of focus**
+- [Resume — QA_Suraj_Navgire_.pdf](./QA_Suraj_Navgire_.pdf)
+- [AI Website QA Report](./Suraj_Navgire_Aivoa_AI_QA_Report.pdf)
+- [CRM Connector QA Report](./Suraj_Navgire_Cloudify_QA_Report.pdf)
+- [Homestay Booking QA Report](./Suraj_Navgire_HomestayBooking_QA_Report.pdf)
+- [PR Form QA Report](./Suraj_Navgire_MorisMedia_QA_Report.pdf)
+- [E-commerce Bug Report](./Suraj_Navgire_NovaCart_Bug_Report.pdf)
 
-- Browser automation using Playwright.
-- Test development using TypeScript.
-- Login and authentication workflows.
-- Form validation and negative scenarios.
-- Role-based functionality.
-- Reusable locators and page objects.
-- Regression test execution.
-- Test reporting and debugging.
-- Git-based version control.
-
-I aim to automate stable, high-value regression scenarios while continuing to use manual and exploratory testing to identify unexpected behavior.
-
----
-
-## 📚 Test Documentation
-
-My QA documentation emphasizes clarity, reproducibility, and traceability.
-
-| Document | Purpose |
-|---|---|
-| Test Plan | Defines testing scope and approach |
-| Test Scenarios | Identifies workflows to validate |
-| Test Cases | Documents steps, data, and expected results |
-| Bug Reports | Records reproducible defects |
-| Requirement Traceability Matrix | Maps requirements to test cases |
-| Test Execution Report | Summarizes test results |
-| Regression Checklist | Tracks critical workflows for repeated testing |
+*If a document link does not open, check the exact filename in the repository because GitHub links must match file names and capitalization.*
 
 ---
 
 ## 💼 Professional Experience
 
-### QA Engineer — E-commerce Applications
+### QA Engineer — E-commerce Web & Android Applications
 
-**Oct 2022 – Present**
+**Sparkviz Technologies Pvt Ltd · Oct 2022 – Present**
 
-- Execute functional, regression, smoke, and sanity testing.
-- Validate web and Android application workflows.
-- Conduct cross-browser testing.
-- Perform API and database validation.
-- Create test documentation and manage defects.
-- Collaborate with developers and stakeholders in Agile/Scrum environments.
+- Execute functional, regression, smoke, sanity, and retesting cycles.
+- Test web and Android application workflows.
+- Perform cross-browser testing.
+- Validate APIs with Postman and backend data with SQL.
+- Create test documentation and track defects in Jira.
+- Collaborate with developers and stakeholders in Agile/Scrum teams.
 
-### Freelance QA Testing
+### Freelance QA Engagements
 
-**Web Applications, SaaS Products & EV Charging CMS**
+**Web Applications · SaaS · E-commerce · EV Charging CMS**
 
 - Design and execute project-specific test cases.
-- Identify and document application defects.
-- Validate business rules, role-based permissions, and integrations.
+- Investigate defects and document reproducible findings.
+- Validate role-based permissions, integrations, and business rules.
 - Test web and mobile application functionality.
-- Prepare testing deliverables and execution documentation.
+- Prepare test case and defect report deliverables.
 - Apply Playwright and TypeScript to automation-related work.
 
 ---
 
 ## 🎓 Education & Certification
 
-### Bachelor of Technology
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🎓 Bachelor of Technology
 
 **Dr. Babasaheb Ambedkar Technological University**
 
-- Graduation Year: 2021
-- CGPA: 8.05 / 10
+- Graduated: 2021
+- CGPA: **8.05 / 10**
 
-### ISTQB Certified Tester — Foundation Level
+</td>
+<td width="50%" valign="top">
 
-- Certification: CTFL
-- Year: 2026
+### 🏅 ISTQB CTFL
 
----
+**Certified Tester — Foundation Level**
 
-## 🌟 Professional Strengths
+- Certification year: 2026
+- Focus: Software testing fundamentals and structured QA practices
 
-- Analytical thinking and attention to detail.
-- Structured test design and defect documentation.
-- Focus on negative scenarios and edge cases.
-- Independent testing and ownership of assigned tasks.
-- Clear communication with developers and stakeholders.
-- Practical understanding of business workflows.
-- Continuous learning in automation and QA practices.
+</td>
+</tr>
+</table>
 
 ---
 
-## 🎯 Career Interests
+## 🌱 Professional Strengths
 
-I am interested in QA opportunities where I can contribute through manual testing, API validation, structured documentation, and UI automation.
-
-**Areas of interest:**
-
-- QA Engineer
-- Software Test Engineer
-- Manual & Automation Test Engineer
-- Playwright Automation Tester
-- Quality Assurance Analyst
+- Analytical thinking and attention to detail
+- Structured test design and defect documentation
+- Edge-case and negative testing
+- Independent ownership of assigned testing tasks
+- Clear communication with developers and stakeholders
+- Business workflow understanding
+- Continuous learning in test automation
 
 ---
 
 ## 🤝 Let's Connect
 
-I welcome opportunities to collaborate, share QA knowledge, and contribute to building reliable software products.
+I'm interested in QA opportunities where I can contribute to product quality through manual testing, API validation, clear documentation, and UI automation.
 
 <div align="center">
 
-**Suraj Navgire**
+<a href="https://suraj7-qa.github.io/suraj-navgire-qa/">
+  <img src="https://img.shields.io/badge/Portfolio-Visit_Website-087E8B?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
+</a>
+<a href="https://linkedin.com/in/suraj-navgire">
+  <img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="mailto:surajnavgire092@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Suraj-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
 
-QA Engineer | Manual Testing | Playwright Automation
+<br/><br/>
 
-📍 Pune, Maharashtra, India
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:071952,50:088395,100:37B7C3&height=120&section=footer" alt="Footer banner" width="100%"/>
 
-[LinkedIn](https://linkedin.com/in/suraj-navgire) ·
-[Email](mailto:surajnavgire092@gmail.com)
-
-</div>
-
----
-
-<div align="center">
-
-*Quality is not just about finding defects. It's about helping build better software.*
+**“Quality is not just about finding defects. It's about helping build better software.”**
 
 </div>
