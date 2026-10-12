@@ -44,8 +44,8 @@ body::before{content:'';position:fixed;inset:0;background-image:url("data:image/
 /* ORBS */
 .orb{position:fixed;border-radius:50%;pointer-events:none;z-index:0;filter:blur(80px);transition:transform .4s cubic-bezier(.2,.8,.2,1), background .4s}
 .orb-1{width:600px;height:600px;background:radial-gradient(circle,rgba(0,229,160,.18),transparent 70%);top:-200px;right:-150px}
-.orb-2{width:500px;height:500px;background:radial-gradient(circle,rgba(0,184,255,.14),transparent 70%);bottom:-100px;left:-100px}
-.orb-3{width:400px;height:400px;background:radial-gradient(circle,rgba(168,85,247,.1),transparent 70%);top:40%;left:40%}
+.orb-2{width:500px;height:500px;background:radial-gradient(circle,rgba(0,184,255,.14), transparent 70%);bottom:-100px;left:-100px}
+.orb-3{width:400px;height:400px;background:radial-gradient(circle,rgba(168,85,247,.1), transparent 70%);top:40%;left:40%}
 
 /* NAV */
 nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:16px 32px;background:rgba(10,12,15,.7);backdrop-filter:blur(24px) saturate(180%);border-bottom:1px solid var(--border);transition:padding .3s,background .3s;height:70px}
@@ -276,8 +276,7 @@ section{padding:100px 48px;position:relative;z-index:2}
 .donut-circle{fill:none;stroke-width:12;stroke-linecap:round;transition:stroke-dashoffset 1.5s cubic-bezier(.2,.8,.2,1)}
 .donut-bg{stroke:var(--border)}
 .donut-center{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center}
-.donut-num{font-family:'DM Serif Display',serif;font-size:2.2rem;line-height:1;color:var(--text)}
-.donut-label{font-size:.7rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-top:4px}
+.donut-label{font-size:0.8rem;font-weight:600;text-align:center;line-height:1.4}
 .chart-legend{display:flex;flex-direction:column;gap:10px}
 .legend-item{display:flex;align-items:center;justify-content:space-between;font-size:.8rem}
 .legend-left{display:flex;align-items:center;gap:8px;color:var(--muted)}
@@ -291,7 +290,7 @@ section{padding:100px 48px;position:relative;z-index:2}
 .game-info h3{font-family:'DM Serif Display',serif;font-size:1.4rem;margin-bottom:6px}
 .game-info p{font-size:.85rem;color:var(--muted)}
 .game-stats{display:flex;gap:12px;align-items:center}
-.game-score{background:var(--surface);border:1px solid var(--border);padding:10px 18px;border-radius:10px;font-family:'DM Mono',monospace;font-size:.85rem}
+.game-score{background:var(--bg);border:1px solid var(--border);padding:10px 18px;border-radius:10px;font-family:'DM Mono',monospace;font-size:.85rem}
 .game-score span{color:var(--accent);font-weight:700}
 .game-reset{background:transparent;border:1px solid var(--border);color:var(--muted);padding:10px 18px;border-radius:10px;cursor:none;font-family:'DM Mono',monospace;font-size:.72rem;text-transform:uppercase;transition:all .2s}
 .game-reset:hover{border-color:var(--accent);color:var(--accent)}
@@ -494,7 +493,7 @@ footer{padding:32px 48px;border-top:1px solid var(--border);display:flex;justify
   <h1 class="hero-name">Suraj<br/><span>Navgire</span></h1>
   <p class="hero-title" id="heroTitle"></p>
   <p class="hero-summary">
-    Manual-first QA Engineer with 3.6+ years of experience in e-commerce web & Android mobile testing.
+    Manual-first QA Engineer with 4 years of experience in e-commerce web & Android mobile testing.
     ISTQB Certified with a proven track record of catching critical defects before release —
     backed by real assignment deliverables, structured test documentation, and end-to-end defect lifecycle management.
   </p>
@@ -503,9 +502,9 @@ footer{padding:32px 48px;border-top:1px solid var(--border);display:flex;justify
     <a href="#portfolio" class="btn-secondary" data-cursor>📁 View Portfolio →</a>
   </div>
   <div class="hero-stats">
-    <div class="stat-item"><div class="stat-num" data-count="2000">0</div><div class="stat-label">Test Cases Written</div></div>
-    <div class="stat-item"><div class="stat-num" data-count="800">0</div><div class="stat-label">Defects Tracked</div></div>
-    <div class="stat-item"><div class="stat-num" data-count="3.6">0</div><div class="stat-label">Years Experience</div></div>
+    <div class="stat-item"><div class="stat-num" data-count="2500">0</div><div class="stat-label">Test Cases Written</div></div>
+    <div class="stat-item"><div class="stat-num" data-count="900">0</div><div class="stat-label">Defects Tracked</div></div>
+    <div class="stat-item"><div class="stat-num" data-count="4">0</div><div class="stat-label">Years Experience</div></div>
   </div>
 </section>
 
@@ -536,7 +535,7 @@ footer{padding:32px 48px;border-top:1px solid var(--border);display:flex;justify
       <div>
         <div class="exp-company">Sparkviz Technologies Pvt Ltd</div>
         <div class="exp-role">QA Engineer</div>
-        <div class="exp-meta">Bengaluru, India &nbsp;·&nbsp; Oct 2022 – Present &nbsp;·&nbsp; 3.6+ Years</div>
+        <div class="exp-meta">Bengaluru, India &nbsp;·&nbsp; Oct 2022 – Present &nbsp;·&nbsp; 4 Years</div>
       </div>
       <div class="exp-badge">Currently Employed</div>
     </div>
@@ -569,13 +568,42 @@ footer{padding:32px 48px;border-top:1px solid var(--border);display:flex;justify
     </div>
   </div>
 
+  <!-- NEW FREELANCE EXPERIENCE: Trevia EV -->
+  <div class="exp-card reveal">
+    <div class="exp-header">
+      <div>
+        <div class="exp-company">Trevia EV</div>
+        <div class="exp-role">Freelance Manual + Automation Tester</div>
+        <div class="exp-meta">Remote &nbsp;·&nbsp; Aug 2026 – Oct 2026 &nbsp;·&nbsp; 3 mos</div>
+      </div>
+      <div class="exp-badge">Freelance Contract</div>
+    </div>
+    <div class="exp-summary">
+      Led end-to-end testing for multiple modules of an EV platform. Designed and executed over 500 test cases, tracked 100+ bugs, and developed an automation testing framework using Playwright and TypeScript.
+    </div>
+    <ul class="exp-bullets">
+      <li>Performed end-to-end testing across multiple modules, ensuring comprehensive coverage and robust functionality</li>
+      <li>Designed and executed <strong>500+ test cases</strong> covering functional, regression, and edge-case scenarios</li>
+      <li>Identified and tracked <strong>100+ bugs</strong>, collaborating closely with developers for timely resolution</li>
+      <li>Developed and maintained an <strong>automation testing framework</strong> using <strong>Playwright and TypeScript</strong></li>
+      <li>Managed test scripts and code versions efficiently using <strong>Git and GitHub</strong></li>
+    </ul>
+    <div class="exp-tags">
+      <span class="exp-tag" data-cursor>E2E Testing</span>
+      <span class="exp-tag" data-cursor>Playwright</span>
+      <span class="exp-tag" data-cursor>TypeScript</span>
+      <span class="exp-tag" data-cursor>Git/GitHub</span>
+      <span class="exp-tag" data-cursor>Test Automation</span>
+    </div>
+  </div>
+
   <!-- FREELANCE EXPERIENCE CARD (GR Silver Second) -->
   <div class="exp-card reveal">
     <div class="exp-header">
       <div>
         <div class="exp-company">GR Silver Designs International</div>
         <div class="exp-role">Freelance QA Engineer</div>
-        <div class="exp-meta">Remote &nbsp;·&nbsp; Dec 2025 – Sep 2026</div>
+        <div class="exp-meta">Jaipur, India (Remote) &nbsp;·&nbsp; Dec 2025 – Sep 2026 &nbsp;·&nbsp; 10 mos</div>
       </div>
       <div class="exp-badge">Freelance Contract</div>
     </div>
@@ -583,11 +611,11 @@ footer{padding:32px 48px;border-top:1px solid var(--border);display:flex;justify
       Handled end-to-end QA ownership independently for a pre-release Web + Android spiritual e-commerce platform with multiple roles (User, Admin, Pandit & Astrologer). 
     </div>
     <ul class="exp-bullets">
-      <li>Created and executed <strong>1,697 test cases</strong> covering functional, regression, exploratory, responsive, and mobile testing</li>
-      <li>Identified and tracked <strong>641 defects</strong> across multiple modules, ensuring zero critical defects reached production</li>
+      <li>Independently handled end-to-end QA lifecycle for a spiritual e-commerce platform</li>
+      <li>Designed and executed <strong>1697+ test cases</strong> covering functional, regression, exploratory, responsive, and mobile testing</li>
+      <li>Identified and tracked <strong>641+ defects</strong> across multiple modules, ensuring zero critical defects reached production</li>
       <li>Tested complex e-commerce, payment, order, Puja booking, and astrologer consultation workflows</li>
       <li>Validated backend data integrity using <strong>SQL</strong> and performed API testing using <strong>Postman</strong></li>
-      <li>Reported, tracked, and verified defects after fixes, managing the complete defect lifecycle independently</li>
     </ul>
     <div class="exp-tags">
       <span class="exp-tag" data-cursor>Solo QA Ownership</span>
@@ -596,7 +624,6 @@ footer{padding:32px 48px;border-top:1px solid var(--border);display:flex;justify
       <span class="exp-tag" data-cursor>JIRA</span>
       <span class="exp-tag" data-cursor>Postman</span>
       <span class="exp-tag" data-cursor>SQL</span>
-      <span class="exp-tag" data-cursor>Chrome DevTools</span>
     </div>
   </div>
 </section>
@@ -671,7 +698,32 @@ footer{padding:32px 48px;border-top:1px solid var(--border);display:flex;justify
   </div>
 
   <div class="projects-grid">
-    <!-- UPDATED FREELANCE PROJECT CARD -->
+    <!-- NEW TREVIA EV PROJECT -->
+    <div class="project-card reveal" data-tilt>
+      <div class="project-header">
+        <div class="project-company">Trevia EV · Aug 2026 – Oct 2026</div>
+        <div class="project-title">EV Charging Application & CMS</div>
+        <div class="project-desc">Web-based CMS and admin panel for EV charging infrastructure. Designed 777 functional test cases covering role-based access, data consistency, and WebSocket real-time connector behavior. Logged 104 defect reports across 12 modules.</div>
+      </div>
+      <div class="project-stats">
+        <div class="pstat"><div class="pstat-num pass">777</div><div class="pstat-label">Test Cases</div></div>
+        <div class="pstat"><div class="pstat-num fail">104</div><div class="pstat-label">Bugs Found</div></div>
+        <div class="pstat"><div class="pstat-num" style="color:var(--accent3)">12</div><div class="pstat-label">Modules</div></div>
+      </div>
+      <div class="project-footer">
+        <div class="project-tags">
+          <span class="ptag">API Testing</span>
+          <span class="ptag blue">WebSocket</span>
+          <span class="ptag orange">RBAC</span>
+        </div>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <a href="EV_Charging_CMS_Test_Cases.pdf" download class="dl-btn" data-cursor>⬇ Test Cases</a>
+          <a href="EV_Charging_CMS_Bug_Reports.pdf" download class="dl-btn" data-cursor>⬇ Bug Reports</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FREELANCE PROJECT CARD -->
     <div class="project-card reveal" data-tilt>
       <div class="project-header">
         <div class="project-company">GR Silver Designs International · Dec 2025 – Sep 2026</div>
@@ -831,12 +883,13 @@ footer{padding:32px 48px;border-top:1px solid var(--border);display:flex;justify
         <button class="filter-btn" data-cursor onclick="filterBugs('High',this)">🔴 High</button>
         <button class="filter-btn" data-cursor onclick="filterBugs('Medium',this)">🟡 Medium</button>
         <button class="filter-btn" data-cursor onclick="filterBugs('Low',this)">🟢 Low</button>
+        <button class="filter-btn" data-cursor onclick="filterBugs('Critical',this)">🔴 Critical</button>
+        <button class="filter-btn" data-cursor onclick="filterBugs('trevia',this)">Trevia EV</button>
         <button class="filter-btn" data-cursor onclick="filterBugs('moris',this)">Moris Media</button>
         <button class="filter-btn" data-cursor onclick="filterBugs('wexa',this)">Wexa</button>
         <button class="filter-btn" data-cursor onclick="filterBugs('aivoa',this)">Aivoa.AI</button>
         <button class="filter-btn" data-cursor onclick="filterBugs('cloudify',this)">Cloudify</button>
         <button class="filter-btn" data-cursor onclick="filterBugs('novacart',this)">NovaCart</button>
-        <button class="filter-btn" data-cursor onclick="filterBugs('Critical',this)">🔴 Critical</button>
       </div>
       <div class="bugs-table">
         <table>
@@ -857,8 +910,7 @@ footer{padding:32px 48px;border-top:1px solid var(--border);display:flex;justify
           <circle id="donutCrit" class="donut-circle" cx="18" cy="18" r="15.915" stroke="var(--critical)"></circle>
         </svg>
         <div class="donut-center">
-          <div class="donut-num" id="donutTotal">0</div>
-          <div class="donut-label">Total Bugs</div>
+          <div class="donut-label">Severity<br>Breakdown</div>
         </div>
       </div>
       <div class="chart-legend" id="chartLegend"></div>
@@ -937,9 +989,9 @@ footer{padding:32px 48px;border-top:1px solid var(--border);display:flex;justify
   <h2 class="section-title">About <em>Me</em></h2>
   <div class="about-grid">
     <div class="about-text reveal">
-      <p>I'm a QA Engineer based in Pune, Maharashtra, with 3.6+ years of professional experience. I currently work full-time at Sparkviz Technologies leading QA for e-commerce web and Android mobile apps, and I recently completed a major freelance project at GR Silver Designs International handling complete QA ownership independently.</p>
+      <p>I'm a QA Engineer based in Pune, Maharashtra, with 4 years of professional experience. I currently work full-time at Sparkviz Technologies leading QA for e-commerce web and Android mobile apps, and I recently completed freelance projects at Trevia EV (EV platform testing & Playwright automation) and GR Silver Designs International (handling complete QA ownership independently).</p>
       <p>I bring an ISTQB CTFL certification and a methodical, documentation-first approach to quality assurance. My strength lies in thinking like a user and attacking edge cases that slip through generic test plans.</p>
-      <p>Across my career, I've designed and executed 2000+ test cases, tracked 800+ defects through full lifecycle in JIRA, and consistently delivered thorough test documentation across Agile sprints.</p>
+      <p>Across my career, I've designed and executed 2500+ test cases, tracked 900+ defects through full lifecycle in JIRA, and consistently delivered thorough test documentation across Agile sprints.</p>
       <p>I'm actively open to new QA roles — full-time or freelance — across Pune, Mumbai, Bengaluru, and remote positions.</p>
       <div style="margin-top:32px">
         <div class="cert-card" data-cursor>
@@ -957,6 +1009,7 @@ footer{padding:32px 48px;border-top:1px solid var(--border);display:flex;justify
         <h3 style="font-size:1rem;font-weight:600;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:24px">Experience Timeline</h3>
         <div class="timeline">
           <div class="timeline-item"><div class="tl-date">Oct 2022 – Present</div><div class="tl-title">QA Engineer (Full-time)</div><div class="tl-sub">Sparkviz Technologies Pvt Ltd · Bengaluru</div></div>
+          <div class="timeline-item"><div class="tl-date">Aug 2026 – Oct 2026</div><div class="tl-title">Freelance Manual + Automation Tester</div><div class="tl-sub">Trevia EV · Remote</div></div>
           <div class="timeline-item"><div class="tl-date">Dec 2025 – Sep 2026</div><div class="tl-title">Freelance QA Engineer</div><div class="tl-sub">GR Silver Designs International · Remote</div></div>
           <div class="timeline-item"><div class="tl-date">2026</div><div class="tl-title">ISTQB CTFL Certified</div><div class="tl-sub">Foundation Level · International Board</div></div>
           <div class="timeline-item"><div class="tl-date">2018 – 2021</div><div class="tl-title">B.Tech</div><div class="tl-sub">Dr. BATU · CGPA 8.05</div></div>
@@ -972,6 +1025,7 @@ footer{padding:32px 48px;border-top:1px solid var(--border);display:flex;justify
           <span class="tag" data-cursor style="padding:6px 14px;font-size:.8rem">API Testing</span>
           <span class="tag" data-cursor style="padding:6px 14px;font-size:.8rem">HR-Tech Platforms</span>
           <span class="tag" data-cursor style="padding:6px 14px;font-size:.8rem">SaaS Products</span>
+          <span class="tag" data-cursor style="padding:6px 14px;font-size:.8rem">EV Charging CMS</span>
         </div>
       </div>
     </div>
@@ -1105,22 +1159,37 @@ footer{padding:32px 48px;border-top:1px solid var(--border);display:flex;justify
 
 <script>
 const allBugs = [
+  // Trevia EV Bugs (Handful selected)
+  {id:'BR-030',title:'Disabled user account can still log in successfully',summary:'A disabled account is still able to log in successfully instead of being blocked.',type:'Security',severity:'Critical',project:'trevia',projectLabel:'Trevia EV',expected:'Disabled account should be prevented from logging in.',actual:'The disabled account is still able to log in successfully.'},
+  {id:'BR-098',title:'Settlements: Future dates are allowed in Custom Range',summary:'The Custom Range date filter allows users to select future dates, which should not be permitted.',type:'UI/UX',severity:'Critical',project:'trevia',projectLabel:'Trevia EV',expected:'Future dates should be disabled and should not be selectable.',actual:'Future dates can be selected/applied in the Custom Range.'},
+  {id:'BR-064',title:'Sessions – Stop Session action is not working',summary:'The Stop Session action fails for an active charging session. The session is not terminated.',type:'Functional',severity:'High',project:'trevia',projectLabel:'Trevia EV',expected:'Active charging session should be terminated and status updated.',actual:'The Stop Session action fails and the active session continues to remain active.'},
+  {id:'BR-005',title:'Unable to Stop Active Session – Remote Stop API Returns 400',summary:'The remote-stop API returns 400 Bad Request when attempting to stop an active session.',type:'API',severity:'High',project:'trevia',projectLabel:'Trevia EV',expected:'The stop command should be successfully processed.',actual:'The remote-stop API returns 400 Bad Request, and the session is not stopped.'},
+  {id:'BR-080',title:'Dashboard – Active Sessions count does not match Sessions module',summary:'The Active Sessions count displayed on the Dashboard does not match the actual number in the Sessions module.',type:'UI/UX',severity:'High',project:'trevia',projectLabel:'Trevia EV',expected:'The Active Sessions count should be consistent across modules.',actual:'Dashboard displays 14 Active Sessions, Sessions module displays only 7.'},
+  {id:'BR-001',title:'Admin Dashboard API Sends Unnecessary Date Parameters',summary:'The Station Breakdown API request includes fromDate and toDate parameters even though the Dashboard does not require them.',type:'Backend',severity:'Medium',project:'trevia',projectLabel:'Trevia EV',expected:'API should send only the parameters required for the Admin Account Dashboard.',actual:'The API request includes unnecessary date parameters.'},
+  
+  // Moris Media Bugs
   {id:'BUG_001',title:'First Name accepts numeric values',summary:'First Name field does not restrict numeric input, allowing invalid data to be stored.',type:'Functional',severity:'Medium',project:'moris',projectLabel:'Moris Media',expected:'Numeric values should not be accepted',actual:'Numbers are accepted without any error'},
   {id:'BUG_002',title:'First Name accepts special symbols',summary:'Special characters and symbols are accepted in name fields without any validation.',type:'Functional',severity:'Medium',project:'moris',projectLabel:'Moris Media',expected:'Symbols should not be accepted',actual:'Symbols are accepted successfully'},
   {id:'BUG_003',title:'First Name accepts emojis',summary:'Emoji characters pass through name field validation without restriction.',type:'Functional',severity:'Medium',project:'moris',projectLabel:'Moris Media',expected:'Emojis should not be accepted',actual:'Emojis are accepted'},
   {id:'BUG_004',title:'First Name accepts single character',summary:'Minimum character validation is missing — single character names are accepted.',type:'Functional',severity:'Low',project:'moris',projectLabel:'Moris Media',expected:'Minimum 2 characters required',actual:'Single character accepted'},
   {id:'BUG_005',title:'Last Name accepts numeric values',summary:'Same validation gap exists in the Last Name field as in First Name.',type:'Functional',severity:'Medium',project:'moris',projectLabel:'Moris Media',expected:'Numeric values should not be accepted',actual:'Numbers are accepted'},
   {id:'BUG_006',title:'Phone number digit limit not enforced',summary:'Phone number field allows more than 10 digits without any restriction or error message.',type:'Functional',severity:'High',project:'moris',projectLabel:'Moris Media',expected:'Maximum 10 digits enforced',actual:'Unlimited digits accepted'},
+  
+  // Wexa Bugs
   {id:'PH_01',title:'Name fields accept invalid chars & excessive length',summary:'Name fields accept invalid characters and excessive length causing incorrect data storage.',type:'Functional',severity:'Medium',project:'wexa',projectLabel:'Wexa / PureHire',expected:'Only alphabetic characters accepted, length capped',actual:'Any character and length accepted'},
   {id:'PH_02',title:'Logout functionality missing from side menu',summary:'Logout option is absent — only "Switch Account" is shown and inconsistently accessible across screens.',type:'UX / Functional',severity:'High',project:'wexa',projectLabel:'Wexa / PureHire',expected:'Logout button visible and functional in side menu',actual:'No logout option — high security risk'},
   {id:'PH_03',title:'Validation error missing field highlight',summary:'On submitting spaces in required fields, a generic validation message appears but the specific problematic field is not highlighted.',type:'UX',severity:'Medium',project:'wexa',projectLabel:'Wexa / PureHire',expected:'Problematic field highlighted in red',actual:'Generic message only, no field highlight'},
   {id:'PH_04',title:'Invalid email format accepted at signup',summary:'System accepts incorrect email formats such as gmai.com without proper validation.',type:'Functional',severity:'High',project:'wexa',projectLabel:'Wexa / PureHire',expected:'Invalid email rejected with error message',actual:'Invalid email accepted successfully'},
   {id:'PH_05',title:'Weak email validation allows suspicious formats',summary:'Emails like t@hoa.com and w67@g5m67ail.om are accepted by the system.',type:'Functional',severity:'Medium',project:'wexa',projectLabel:'Wexa / PureHire',expected:'Only valid email formats accepted',actual:'Suspicious formats pass validation'},
+  
+  // Aivoa Bugs
   {id:'BUG-001',title:'Page layout breaks on pinch zoom in mobile view',summary:'Mobile webpage layout breaks and shows excessive white space during pinch zoom interaction.',type:'UI / Responsive',severity:'Medium',project:'aivoa',projectLabel:'Aivoa.AI',expected:'Layout remains stable during pinch zoom',actual:'Excessive white space and layout breakage observed'},
   {id:'BUG-002',title:'Module details panel hidden on mobile',summary:'Selected module content is partially hidden on mobile devices when expanding the module details panel.',type:'UI / Responsive',severity:'Medium',project:'aivoa',projectLabel:'Aivoa.AI',expected:'Module content fully visible and scrollable',actual:'Content compressed or partially hidden'},
   {id:'BUG-003',title:'Section alignment breaks on mobile',summary:'Content cards are misaligned and exceed proper mobile screen layout in the process/workflow section.',type:'UI / Responsive',severity:'Medium',project:'aivoa',projectLabel:'Aivoa.AI',expected:'Proper responsive grid layout on mobile',actual:'Cards overflow and misalign'},
   {id:'BUG-004',title:'Email field accepts multiple special characters',summary:'Demo form accepts email addresses containing multiple invalid special characters like sun#@gmail.com.',type:'Validation',severity:'Medium',project:'aivoa',projectLabel:'Aivoa.AI',expected:'Invalid email rejected',actual:'Invalid email with special chars accepted'},
   {id:'BUG-005',title:'Email field accepts improperly formatted email',summary:'Form accepts improperly formatted emails like bjsj@j without proper format validation.',type:'Validation',severity:'Medium',project:'aivoa',projectLabel:'Aivoa.AI',expected:'Proper email format enforced',actual:'Malformed email accepted without error'},
+  
+  // Cloudify Bugs
   {id:'CLF-TC006',title:'Contacts Sync — duplicate contact not handled',summary:'When a duplicate contact is synced from Pipedrive to Xero, no error or warning is shown and a duplicate record is created.',type:'Contacts Sync',severity:'High',project:'cloudify',projectLabel:'Cloudify',expected:'Duplicate contact flagged or merged gracefully',actual:'Duplicate record created silently in Xero'},
   {id:'CLF-TC012',title:'Validation — special characters rejected incorrectly',summary:'Valid contact names with accented characters (e.g. José) fail sync validation and are rejected by the connector.',type:'Validation',severity:'Medium',project:'cloudify',projectLabel:'Cloudify',expected:'Accented and special characters in names accepted',actual:'Sync fails with validation error for valid names'},
   {id:'CLF-TC013',title:'Validation — empty mapped field causes silent failure',summary:'When a required Xero field is left unmapped in the connector settings, sync fails silently with no user-facing error.',type:'Validation',severity:'High',project:'cloudify',projectLabel:'Cloudify',expected:'Clear error message shown when required field is unmapped',actual:'Sync fails silently, no feedback to user'},
@@ -1128,6 +1197,8 @@ const allBugs = [
   {id:'CLF-TC016',title:'Error Handling — OAuth token expiry not handled',summary:'When the Xero OAuth token expires mid-session, the connector shows a generic error instead of prompting re-authentication.',type:'Error Handling',severity:'High',project:'cloudify',projectLabel:'Cloudify',expected:'User prompted to re-authenticate when token expires',actual:'Generic error shown, user must manually reconnect'},
   {id:'CLF-TC017',title:'Error Handling — network timeout causes data loss',summary:'If network times out during a sync operation, partial data is written to Xero with no rollback or retry mechanism.',type:'Error Handling',severity:'High',project:'cloudify',projectLabel:'Cloudify',expected:'Sync rolled back or retried on timeout',actual:'Partial data written, no rollback or notification'},
   {id:'CLF-TC018',title:'Logging & UX — sync history not updated in real time',summary:'The sync activity log does not update in real time; user must manually refresh to see latest sync status.',type:'Logging & UX',severity:'Medium',project:'cloudify',projectLabel:'Cloudify',expected:'Sync log updates in real time or auto-refreshes',actual:'Log is static until page is manually refreshed'},
+  
+  // NovaCart Bugs
   {id:'NC-01',title:'Product listing columns disappear on higher pagination',summary:'Sub Category and Status columns visible at 10 items but disappear when switching pagination to 25 or 100.',type:'UI / Table',severity:'High',project:'novacart',projectLabel:'NovaCart',expected:'Columns remain visible at all pagination sizes',actual:'Columns vanish at 25 or 100 items per page'},
   {id:'NC-02',title:'Recent Orders — no actions after selecting Order ID',summary:'Selecting an Order ID highlights the row but no action buttons or modals become available.',type:'Functional',severity:'High',project:'novacart',projectLabel:'NovaCart',expected:'Action buttons activate on row selection',actual:'No modal or buttons triggered after selection'},
   {id:'NC-03',title:'Phone field accepts letters on Custom Jewellery form',summary:'Phone field allows alphabets, symbols, and submits successfully without any validation error.',type:'Validation',severity:'High',project:'novacart',projectLabel:'NovaCart',expected:'Only numeric values allowed in phone field',actual:'Invalid characters accepted and form submits'},
@@ -1136,7 +1207,7 @@ const allBugs = [
   {id:'NC-06',title:'Horoscope Read More button completely inactive',summary:'Read More button on horoscope section does not expand content or navigate anywhere — no action on click.',type:'Functional',severity:'Medium',project:'novacart',projectLabel:'NovaCart',expected:'Expands content or opens detail view',actual:'No action — missing JS click event handler'},
   {id:'NC-07',title:'Master checkbox does not select all rows in Recent Orders',summary:'Clicking master checkbox in Recent Orders table header does not select visible row checkboxes — bulk actions unavailable.',type:'Functional',severity:'Medium',project:'novacart',projectLabel:'NovaCart',expected:'All checkboxes selected on master checkbox click',actual:'Bulk selection not triggered'},
   {id:'NC-08',title:'Color Code required validation missing in Admin Panel',summary:'Admin Panel > Attributes > Color > Add Color allows submitting with empty Color Code field — no required validation.',type:'Validation',severity:'High',project:'novacart',projectLabel:'NovaCart',expected:'Color Code required — empty submission rejected',actual:'Empty and invalid values accepted without error'},
-  {id:'NC-09',title:'Min Amount column not sortable in Shipping Details',summary:'Clicking Min Amount column header in Product CMS > Shipping Details does not reorder the table data.',type:'Functional',severity:'High',project:'novacart',projectLabel:'NovaCart',expected:'Column sorts ascending/descending on click',actual:'Sort control present but table order does not change'},
+  {id:'NC-09',title:'Min Amount column not sortable in Shipping Details',summary:'Clicking Min Amount column header in Product CMS > Shipping Details does not reorder the table data.',type:'Functional',severity:'High',project:'novacart',projectLabel:'NovaCart',expected:'Column sorts ascending/descending on click',actual:'Sort control present but table order does not change'}
 ];
 
 /* BUG RENDER - Added data-label for mobile responsiveness */
@@ -1178,7 +1249,6 @@ function renderChart(){
   const counts = {High:0, Medium:0, Low:0, Critical:0};
   allBugs.forEach(b=>counts[b.severity]++);
   const total = allBugs.length;
-  document.getElementById('donutTotal').textContent = total;
 
   const circ = 2 * Math.PI * 15.915;
   let offset = 0;
@@ -1305,9 +1375,9 @@ for(let i=0;i<24;i++){
 /* TYPEWRITER */
 const titleEl = document.getElementById('heroTitle');
 const phrases = [
-  'QA Engineer · <span class="hl">ISTQB CTFL Certified</span> · 3.6+ Years',
+  'Manual + Automation Tester · <span class="hl">ISTQB CTFL Certified</span> · 4 Years',
   'Manual Testing · <span class="hl">Web & Mobile</span>',
-  'Defect Hunter · <span class="hl">200+ Bugs Logged</span>',
+  'Defect Hunter · <span class="hl">900+ Bugs Logged</span>',
   'ISTQB CTFL · <span class="hl">E-Commerce Specialist</span>'
 ];
 let pi=0,ci=0,del=false;
